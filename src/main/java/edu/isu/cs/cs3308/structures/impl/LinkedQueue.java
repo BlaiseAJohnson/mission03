@@ -2,12 +2,17 @@ package edu.isu.cs.cs3308.structures.impl;
 
 import edu.isu.cs.cs3308.structures.Queue;
 
+/**
+ * Represents a queue built on a doubly-linked list.
+ * @author Blaise Johnson
+ * @param <E> The data type to be stored in the LinkedQueue.
+ */
 public class LinkedQueue<E> implements Queue<E> {
+
     /**
      * Represents the underlying structure of the LinkedQueue.
      */
     private DoublyLinkedList<E> queue = new DoublyLinkedList<>();
-
 
     /**
      * @return The number of elements in the queue

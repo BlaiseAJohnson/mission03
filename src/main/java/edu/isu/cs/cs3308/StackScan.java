@@ -7,7 +7,7 @@ import edu.isu.cs.cs3308.structures.impl.LinkedQueue;
 /**
  *
  * @author Isaac Griffith
- * @author
+ * @author Blaise Johnson
  */
 public class StackScan {
 
